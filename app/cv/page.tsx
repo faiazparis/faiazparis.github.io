@@ -79,7 +79,7 @@ export default function About() {
           <div className="project-item">
             <h3>Math/Quantum Tools - Advanced Math & Physics</h3>
             <p>
-              Developed Python libraries for algebraic geometry, Quantum Error Correction (QEC), 
+              Developed Python projects for algebraic geometry, Quantum Error Correction (QEC), 
               categorical ETL, spectral analysis, cohomology, Ricci flow, and financial denoising with comprehensive tests and documentation.
             </p>
           </div>

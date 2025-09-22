@@ -103,7 +103,7 @@ export default function Home() {
         <p>
           My journey spans from Paris (where I live) through Nepal and India 
           (spiritual exploration), to the vibrant markets of Thailand and Vietnam, 
-          the ancient wisdom of China, the technological innovation of Japan and Korea, 
+          the ancient wisdom of China, the technological innovation of Japan and South Korea, 
           the tropical paradise of Maldives, the business hubs of UAE and Saudi Arabia, 
           the energy of Colombia, and finally to the innovation centers of the USA. 
           Each destination shaped my perspective on technology, culture, and global business.
