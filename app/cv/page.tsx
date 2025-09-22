@@ -30,7 +30,7 @@ export default function About() {
           
           <div className="education-item">
             <h3>King's College London</h3>
-            <p>Master of Arts in International Affairs (2022 - Dropout)</p>
+            <p>Master of Arts in International Affairs (2022 - Dropout)<br/><em>Strategy, War Studies, International Relations</em></p>
           </div>
 
           <div className="education-item">

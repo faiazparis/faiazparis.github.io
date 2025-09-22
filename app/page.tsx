@@ -101,7 +101,7 @@ export default function Home() {
       
       <div className="travel-journey">
         <p>
-          My journey spans from Paris (my professional base) through Nepal and India 
+          My journey spans from Paris (where I live) through Nepal and India 
           (spiritual exploration), to the vibrant markets of Thailand and Vietnam, 
           the ancient wisdom of China, the technological innovation of Japan and Korea, 
           the tropical paradise of Maldives, the business hubs of UAE and Saudi Arabia, 
