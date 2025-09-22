@@ -35,7 +35,7 @@ export default function About() {
 
           <div className="education-item">
             <h3>IMT Atlantique</h3>
-            <p> MSc Engineering - Diplôme d'ingénieur (2016-2020)</p>
+            <p> MSc Engineering - Diplôme d'ingénieur (2016-2020)<br/><em>Operations Research, Python, SQL, Markov Process, Artificial Intelligence (NLP), Finance & Accounting</em></p>
           </div>
 
           <div className="education-item">
