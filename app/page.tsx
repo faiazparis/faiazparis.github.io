@@ -97,6 +97,14 @@ export default function Home() {
         thoughtful technology and genuine human connection.
       </p>
 
+      <h2>Personal Note</h2>
+      
+      <div className="personal-note">
+        <p>
+          When I travel, I pick up language patterns through repeated exposure, much like LLMs learn from vast datasets.
+        </p>
+      </div>
+
       <h2>Travel Journey</h2>
       
       <div className="travel-journey">
