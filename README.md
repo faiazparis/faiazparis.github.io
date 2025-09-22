@@ -1,80 +1,162 @@
-# Sabal Hero's Personal Website
+# Abrar Fayaz - Portfolio Website
 
-A minimalist personal website built with Next.js, inspired by the clean design of academic personal sites.
+A modern, minimalist portfolio website built with Next.js, showcasing professional experience in AI, corporate finance, and entrepreneurship.
 
-## Features
+## 🌟 Features
 
-- **Homepage**: Bio, research interests, publications, teaching, and service
-- **Blog**: Recent posts and archive with individual post pages
-- **Navigation**: Clean inline navigation with external links
-- **Responsive**: Mobile-friendly design
-- **Minimalist**: Pure white background, clean typography, no unnecessary elements
+- **Homepage**: Professional bio, travel journey, and expertise showcase
+- **CV Page**: Comprehensive professional experience and education
+- **Responsive Design**: Mobile-first approach with clean typography
+- **Static Export**: Optimized for GitHub Pages deployment
+- **GitHub Actions**: Automated build and deployment pipeline
+- **Minimalist Design**: Clean, professional aesthetic focused on content
 
-## Tech Stack
+## 🚀 Live Demo
 
-- Next.js 14 with App Router
-- TypeScript
-- CSS (no external frameworks)
-- Static export for easy deployment
+Visit the live website: **[https://faiazparis.github.io/](https://faiazparis.github.io/)**
 
-## Getting Started
+## 🛠 Tech Stack
 
-1. Install dependencies:
+- **Framework**: Next.js 14 with App Router
+- **Language**: TypeScript
+- **Styling**: Pure CSS (no external frameworks)
+- **Deployment**: GitHub Pages with GitHub Actions
+- **Build**: Static export for optimal performance
+
+## 📁 Project Structure
+
+```
+├── app/
+│   ├── components/
+│   │   └── Navigation.tsx     # Main navigation component
+│   ├── cv/
+│   │   └── page.tsx          # CV/Resume page
+│   ├── globals.css           # Global styles and design system
+│   ├── layout.tsx            # Root layout with metadata
+│   └── page.tsx              # Homepage with bio and expertise
+├── .github/
+│   └── workflows/
+│       └── deploy.yml        # GitHub Actions deployment
+├── public/
+│   ├── files/
+│   │   └── pgp-key.txt       # PGP public key
+│   └── photo.jpg             # Professional headshot
+├── next.config.js            # Next.js configuration for static export
+└── package.json
+```
+
+## 🚀 Getting Started
+
+### Prerequisites
+- Node.js 18+ 
+- npm or yarn
+
+### Installation
+
+1. **Clone the repository**:
+```bash
+git clone https://github.com/faiazparis/faiazparis.github.io.git
+cd faiazparis.github.io
+```
+
+2. **Install dependencies**:
 ```bash
 npm install
 ```
 
-2. Run the development server:
+3. **Run the development server**:
 ```bash
 npm run dev
 ```
 
-3. Open [http://localhost:3000](http://localhost:3000) in your browser.
+4. **Open your browser**: Navigate to [http://localhost:3000](http://localhost:3000)
 
-## Building for Production
+### Building for Production
 
 ```bash
 npm run build
 ```
 
-The static files will be generated in the `out` directory, ready for deployment to any static hosting service.
+Static files will be generated in the `out` directory, ready for deployment.
 
-## Project Structure
+## 🎨 Design Philosophy
 
+This portfolio follows a **minimalist professional design**:
+
+- **Clean Typography**: Lato font family for readability
+- **Generous Whitespace**: Focus on content over decoration  
+- **Left-Aligned Layout**: Academic-inspired content structure
+- **Mobile-First**: Responsive design for all devices
+- **Performance**: Static export for fast loading
+- **Accessibility**: Semantic HTML and proper contrast
+
+## 📝 Content Sections
+
+### Homepage (`/`)
+- Professional introduction and bio
+- Travel journey with animated country tags
+- Technical expertise and skills
+- Contact information
+
+### CV Page (`/cv`)
+- Professional experience timeline
+- Education and academic background
+- Technical projects and achievements
+- Language proficiency
+- Contact details
+
+## 🔧 Customization
+
+To adapt this portfolio for your own use:
+
+### 1. Personal Information
+- Update `app/page.tsx` with your bio and expertise
+- Modify `app/cv/page.tsx` with your professional experience
+- Replace `public/photo.jpg` with your professional headshot
+
+### 2. Styling
+- Customize colors and fonts in `app/globals.css`
+- Adjust spacing and layout as needed
+- Update the design system variables
+
+### 3. Navigation
+- Modify `app/components/Navigation.tsx` for different links
+- Update external social media links
+- Add or remove navigation items
+
+### 4. Deployment
+- Update repository name in `package.json`
+- Modify GitHub Actions workflow if needed
+- Configure custom domain in GitHub Pages settings
+
+## 🚀 Deployment
+
+This project is configured for **GitHub Pages** deployment:
+
+1. **Repository Setup**: Must be named `username.github.io`
+2. **GitHub Actions**: Automated build and deployment
+3. **Static Export**: Optimized for static hosting
+4. **Custom Domain**: Optional custom domain support
+
+### Manual Deployment
+```bash
+npm run build
+# Upload contents of 'out' directory to your hosting service
 ```
-├── app/
-│   ├── blog/
-│   │   ├── page.tsx          # Blog home
-│   │   └── posts/
-│   │       ├── page.tsx      # Blog archive
-│   │       └── [slug]/
-│   │           └── page.tsx  # Individual posts
-│   ├── globals.css           # Global styles
-│   ├── layout.tsx            # Root layout
-│   └── page.tsx              # Homepage
-├── public/
-│   └── files/
-│       ├── cv.pdf            # CV download
-│       └── pgp-key.txt       # PGP key
-└── package.json
-```
 
-## Customization
+## 📄 License
 
-To customize this website for your own use:
+This project is open source and available under the [MIT License](LICENSE).
 
-1. Update personal information in `app/page.tsx`
-2. Replace publications with your own
-3. Update external links (GitHub, X, Google Scholar)
-4. Add your own blog posts in `app/blog/posts/[slug]/page.tsx`
-5. Replace the CV file in `public/files/cv.pdf`
 
-## Design Philosophy
+## 📞 Contact
 
-This website follows a minimalist academic design:
-- Clean, readable typography
-- Generous whitespace
-- Left-aligned content
-- No unnecessary visual elements
-- Focus on content over decoration
-- Mobile-first responsive design
+**Abrar Fayaz** - [faiazparis@gmail.com](mailto:faiazparis@gmail.com)
+
+- **GitHub**: [@faiazparis](https://github.com/faiazparis)
+- **X/Twitter**: [@faiazparis](https://x.com/faiazparis)
+- **Website**: [https://faiazparis.github.io/](https://faiazparis.github.io/)
+
+---
+
+⭐ **Star this repository** and feel free to use it!
